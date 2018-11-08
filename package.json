@@ -1,0 +1,17 @@
+{
+  "name": "questcsv",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abs",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^4.0.0",
+    "csv-parse": "^3.1.3",
+    "fast-csv": "^2.4.1",
+    "nodemon": "^1.18.6"
+  }
+}
