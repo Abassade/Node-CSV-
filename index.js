@@ -19,7 +19,7 @@ const rl = readline.createInterface({
      for (let index = 0; index < data.length; index++) {
         rl.question(data[index]+'\n', (answer) => {
 
-            if(answer.toLowerCase()===data[1]){
+            if(answer.toLowerCase()===data[i]){
            console.log(`Wow! you got it\nThe answer is : ${answer}`);   }
            else{
               console.log(`Ouch! your answer: (${answer}) is wrong`);  
